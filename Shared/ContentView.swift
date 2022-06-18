@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text(String(counter))
-                .font(Font.custom("AmericanTypewriter-Bold", size: 40))
+                .font(Font.custom("Zapfino", size: 40))
             HStack {
                 Button(action: {down()}) {
                     Text("-")
